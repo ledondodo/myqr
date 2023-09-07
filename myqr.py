@@ -1,7 +1,8 @@
 import qrcode
+from PIL import Image
 
 def qr_generate(text,file):
-	qr = qrcode.QRCode(
+	qr = qrcode.qrcode(
 			version=1,
 			error_correction=qrcode.constants.ERROR_CORRECT_M, # 15% error
 			box_size=10,
@@ -15,3 +16,6 @@ def qr_generate(text,file):
 file = "myQR.png"
 qr_generate(input("Text to QR generate: "),file)
 print(f"QR saved as {file}")
+
+img = Image.open('myQR.png')
+img.show()
