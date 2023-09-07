@@ -11,7 +11,6 @@ When you launch the program, you'll be able to enter some text and generate your
 
 <p align="center">
   <img src="img/myQR.png" width=30% height=30%>
-  <img src="img/myQR.png" width=30% height=30%>
 </p>
 
 ## Use Terminal alias (mac)
