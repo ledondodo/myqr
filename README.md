@@ -7,10 +7,11 @@ Launch the program with python by typing `python myqr.py` in the program directo
 I personally use a shortcut with the short keyword `myqr` that launches the code from the right directory.
 
 ## How does it work ?
-As you launch the program, you'll see the following interface in the Terminal command line. Enter some text after "Post:" then hit enter, and a blue message will confirm that you successfully tweeted ! Go check online and you should immediately see your new post.
+When you launch the program, you'll be able to enter some text and generate your QR code from the Terminal command line. An image "myQR.png" will be created in the program's directory, and it will open. This QR Code contains the text you entered.
 
 <p align="center">
-  <img src="img/myQR.png" width=40% height=40%>
+  <img src="img/myQR.png" width=30% height=30%>
+  <img src="img/myQR.png" width=30% height=30%>
 </p>
 
 ## Use Terminal alias (mac)
