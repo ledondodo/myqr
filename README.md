@@ -14,7 +14,7 @@ Add the line: `alias ytb='python /pathtofile/qrcode.py'` with the right path to 
 Now you can type `qrcode` in the Terminal command line to launch the program.
 
 ## Libraries
-This program uses qrcode package: `pip install qrcode`
+This program uses qrcode v6.1 package: `pip install qrcode==6.1`
 
 ## License
 [MIT License](LICENSE)

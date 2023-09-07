@@ -2,7 +2,7 @@ import qrcode
 from PIL import Image
 
 def qr_generate(text,file):
-	qr = qrcode.qrcode(
+	qr = qrcode.QRCode(
 			version=1,
 			error_correction=qrcode.constants.ERROR_CORRECT_M, # 15% error
 			box_size=10,
